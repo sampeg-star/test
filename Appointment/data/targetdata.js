@@ -1,0 +1,70 @@
+const targetdata = [
+	{
+		id:"1",
+		name:"柠檬小可爱",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","28岁","本科","165cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"2",
+		name:"柠檬",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","25岁","大专","160cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"3",
+		name:"小可爱",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","40岁","高中","161cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"4",
+		name:"可爱",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","25岁","初中以下","163cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"5",
+		name:"可",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","35岁","博士","170cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"6",
+		name:"可爱",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","31岁","硕士","168cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	{
+		id:"7",
+		name:"爱",
+		pic:"../../static/images/tx2.jpg",
+		pictag:"../../static/images/nv.jpg",
+		tag:["女","21岁","中专/高中","179cm"],
+		jianjie:"想认识有钱的你",
+		flage:true
+	},
+	
+]
+
+module.exports={
+	target:targetdata
+}

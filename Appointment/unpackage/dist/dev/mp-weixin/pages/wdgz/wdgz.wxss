@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #F1F1F1;
+  padding-bottom: 50rpx;
+}
+.lljl_nr {
+  width: 85%;
+  margin: 30rpx auto;
+  background: url(data:image/jpeg;base64,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) no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 40rpx 30rpx 40rpx 30rpx;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.lljl_nr image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10px;
+}
+.lljl_nr .lljl_text {
+  width: 430rpx;
+}
+.lljl_nr .lljl_text .lljl_name {
+  font-size: 35rpx;
+  margin-bottom: 20rpx;
+}
+.lljl_nr .lljl_text .lljl_msg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  font-size: 28rpx;
+  color: #C8C7CC;
+  margin-bottom: 10rpx;
+}
+.lljl_nr .lljl_text .lljl_msg .sex {
+  color: #ff7b72;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.lljl_nr .lljl_text .lljl_msg image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.lljl_nr .lljl_text .lljl_tap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+}
+.lljl_nr .lljl_text .lljl_tap .lljl_btn {
+  width: 180rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #FFFFFF;
+  border-radius: 50px;
+  background-image: -webkit-linear-gradient(left, #ff542d, #ff8f46, #ff9548);
+  background-image: linear-gradient(to right, #ff542d, #ff8f46, #ff9548);
+}
+

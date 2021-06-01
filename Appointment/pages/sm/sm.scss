@@ -1,0 +1,23 @@
+.sm_box{
+	margin-top: 20rpx;
+	background-color: #FFFFFF;
+	padding: 30rpx;
+}
+.sm_btn_box{
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	padding: 20rpx 0 60rpx 0;
+	.sm_btn{
+		width: 80%;
+		border-radius: 50px;
+		text-align: center;
+		background-image: linear-gradient(to right,#e35f37,#eb9520);
+		color: #FFFFFF;
+		padding: 20rpx 0;
+	}
+}

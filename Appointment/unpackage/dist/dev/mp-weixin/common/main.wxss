@@ -1,0 +1,15 @@
+
+checkbox .wx-checkbox-input {
+			border-radius: 50% !important;
+			/* color: #ffffff !important; */
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+			color: #fff;
+			background: #ff0000;
+}
+		/* .wx-checkbox-input.wx-checkbox-input-checked {
+			border: none !important;
+		} */
+
+		/*每个页面公共css */
+

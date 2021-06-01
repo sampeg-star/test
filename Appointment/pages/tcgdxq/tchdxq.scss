@@ -1,0 +1,147 @@
+.top_box{
+	background-color: #FFFFFF;
+	padding: 0 30rpx 50rpx 30rpx;
+	.tchd_banner{
+		width: 100%;
+		image{
+			width: 100%;
+			height: 300rpx;
+		}
+	}
+	.tchd_msg{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30rpx 0;
+		font-size: 30rpx;
+		image{
+			width: 35rpx;
+			height: 35rpx;
+		}
+		.tchd_fx{
+			button{
+				&::after{
+					border: none;
+				}
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 30rpx;
+				color: #ff2c2c;
+				background-color: #FFFFFF;
+				text{
+					margin-right: 10rpx;
+				}
+			}
+		}
+	}
+	.tchd_doll{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 20rpx;
+		.tchd_meny{
+			color: #ff2c2c;
+		}
+		.tchd_people{
+			font-size: 25rpx;
+			margin-left: 20rpx;
+		}
+	}
+	.tchd_time{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		.fg{
+			height: 50rpx;
+			margin-left: 30rpx;
+			margin-right: 30rpx;
+			border: 1px solid #a8a8a8;
+		}
+		.tchd_ks{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 28rpx;
+			.ks_text{
+				font-size: 24rpx;
+				margin-top: 10rpx;
+			}
+		}
+		.tchd_jz{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 28rpx;
+			.jz_text{
+				font-size: 24rpx;
+				margin-top: 10rpx;
+			}
+		}
+	}
+}
+.tchd_hdxq{
+	padding: 30rpx;
+	image{
+		width: 100%;
+		height: 650px;
+		margin-top: 20rpx;
+	}
+}
+.tchd_zx{
+	width: 100%;
+	position: fixed;
+	bottom: var(--window-bottom);
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10rpx 30rpx 70rpx 30rpx;
+	box-sizing:border-box;
+	font-size: 25rpx;
+	image{
+		width: 40rpx;
+		height: 40rpx;
+	}
+	.zx_box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.tchd_kf{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.tchd_rx{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left:50rpx;
+		button{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 25rpx;
+			background-color: #FFFFFF;
+			padding: 0;
+			margin: 0;
+			text{
+				height: 32rpx;
+				line-height: 32rpx;
+			}
+			&::after{
+				border: none;
+			}
+		}
+	}
+	.tchd_bm{
+	width: 180rpx;
+	background-image: linear-gradient(to right, #e35f37,#eb9520);
+	border-radius: 10rpx;
+	padding: 15rpx 0 15rpx 0;
+	text-align: center;
+	font-size: 30rpx;
+	color: #FFFFFF;
+	}
+}

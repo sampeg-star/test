@@ -1,0 +1,56 @@
+.lljl_nr{
+	width: 85%;
+	margin: 30rpx auto;
+	background: url(~@/static/images/bj.jpg) no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40rpx 30rpx 40rpx 30rpx;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	image{
+		width: 180rpx;
+		height: 180rpx;
+		border-radius: 10px;
+	}
+	.lljl_text{
+		width: 430rpx;
+		.lljl_name{
+			font-size: 35rpx;
+			margin-bottom: 20rpx;
+		}
+		.lljl_msg{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			font-size: 28rpx;
+			color: #C8C7CC;
+			margin-bottom: 10rpx;
+			.sex{
+				color: #ff7b72;
+				margin-left: 10rpx;
+				margin-right: 10rpx;
+			}
+			image{
+				width: 40rpx;
+				height: 40rpx;
+			}
+		}
+		.lljl_tap{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 28rpx;
+			.lljl_btn{
+				width: 180rpx;
+				height: 60rpx;
+				text-align: center;
+				line-height: 60rpx;
+				color: #FFFFFF;
+				border-radius: 50px;
+				background-image: linear-gradient(to right,#ff542d,#ff8f46,#ff9548);
+			}
+		}
+	}
+}

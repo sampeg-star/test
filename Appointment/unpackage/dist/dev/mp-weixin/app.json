@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/target/target",
+    "pages/user/user",
+    "pages/mx/yemx",
+    "pages/yecz/yecz",
+    "pages/tc/tchd",
+    "pages/tcgdxq/tchdxq",
+    "pages/lljl/lljl",
+    "pages/zhuce/zhuce",
+    "pages/hyzx/hyzx",
+    "pages/hyzxxf/hyzxxf",
+    "pages/dxxq/dxxq",
+    "pages/wzxq/wzxq",
+    "pages/wdbm/wdbm",
+    "pages/xwdt/xwdt",
+    "pages/bjzl/bjzl",
+    "pages/sm/sm",
+    "pages/u-avatar-cropper/u-avatar-cropper",
+    "pages/wdgz/wdgz",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#616161",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/images/sy.jpg",
+        "selectedIconPath": "/static/images/sytap.png"
+      },
+      {
+        "pagePath": "pages/target/target",
+        "text": "找对象",
+        "iconPath": "/static/images/zdx.jpg",
+        "selectedIconPath": "/static/images/zdxtap.jpg"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/images/wd.jpg",
+        "selectedIconPath": "/static/images/wdtap.jpg"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap75.json"
+}

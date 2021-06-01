@@ -1,0 +1,166 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom"
+				
+			}
+			
+		},
+		{
+			"path":"pages/target/target",
+			"style":{
+				"navigationBarTitleText":"找对象"
+			}
+		},
+		{	
+			"path":"pages/user/user",
+			"style":{
+				"navigationBarTitleText":"我的",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/mx/yemx",
+			"style":{
+				"navigationBarTitleText":"余额明细"
+			}
+		},
+		{
+			"path":"pages/yecz/yecz",
+			"style":{
+				"navigationBarTitleText":"余额充值",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+				"path":"pages/tc/tchd",
+				"style":{
+					"navigationBarTitleText":"同城活动"
+				}
+		},
+		{
+			"path":"pages/tcgdxq/tchdxq",
+			"style":{
+				"navigationBarTitleText":"同城活动详情"
+			}
+		},
+		{
+			"path":"pages/lljl/lljl",
+			"style":{
+				"navigationBarTitleText":"浏览记录"
+			}
+		},
+		{
+			"path":"pages/zhuce/zhuce",
+			"style":{
+				"navigationBarTitleText":"注册",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/hyzx/hyzx",
+			"style":{
+				"navigationBarTitleText":"会员中心"
+			}
+		},
+		{
+			"path":"pages/hyzxxf/hyzxxf",
+			"style":{
+				"navigationBarTitleText":"会员中心"
+			}
+		},
+		{
+			"path":"pages/dxxq/dxxq",
+			"style":{
+				"navigationBarTitleText":"对象详情"
+			}
+		},
+		{
+			"path":"pages/wzxq/wzxq",
+			"style":{
+				"navigationBarTitleText":"文章详情页"
+			}
+		},
+		{
+			"path":"pages/wdbm/wdbm",
+			"style":{
+				"navigationBarTitleText":"我的报名"
+			}
+		},
+		{
+			"path":"pages/xwdt/xwdt",
+			"style":{
+				"navigationBarTitleText":"新闻动态"
+			}
+		},
+		{
+			"path":"pages/bjzl/bjzl",
+			"style":{
+				"navigationBarTitleText":"编辑资料"
+			}
+		},
+		{
+			"path":"pages/sm/sm",
+			"style":{
+				"navigationBarTitleText":"会员协议说明"
+			}
+		},
+		{
+			"path": "pages/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		},
+		{
+			"path":"pages/wdgz/wdgz",
+			"style":{
+				"navigationBarTitleText":"我的关注"				
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+				"navigationBarTitleText":"登录"
+				
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		// "color": "#616161",
+		"selectedColor":"#616161",
+		"list":[
+			{
+					"pagePath": "pages/index/index",
+					"text": "首页",
+					"iconPath": "/static/images/sy.jpg",
+					"selectedIconPath": "/static/images/sytap.png"
+				},
+				{
+					"pagePath": "pages/target/target",
+					"text": "找对象",
+					"iconPath": "/static/images/zdx.jpg",
+					"selectedIconPath": "/static/images/zdxtap.jpg"
+				},
+				{
+					"pagePath": "pages/user/user",
+					"text": "我的",
+					"iconPath": "/static/images/wd.jpg",
+					"selectedIconPath": "/static/images/wdtap.jpg"
+				}
+		]
+	}
+}

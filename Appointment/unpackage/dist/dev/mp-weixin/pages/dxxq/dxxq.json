@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "对象详情",
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag"
+  }
+}

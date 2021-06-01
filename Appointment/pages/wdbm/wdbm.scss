@@ -1,0 +1,45 @@
+.wdbm_nr{
+	width: 85%;
+	margin: 30rpx auto 30rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 20rpx;
+	image{
+		width: 150rpx;
+		height: 150rpx;
+		border-radius: 10px;
+		margin-right: 20rpx;
+	}
+	.wdbm_msg{
+		width: 80%;
+		.wdbm_time{
+			margin-bottom: 20rpx;
+			color: #bcbcbc;
+			text{
+				&:nth-child(1){
+					margin-right: 30rpx;
+					
+				}
+			}
+		}
+		.wdbm_status{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text{
+			&:nth-child(1){
+				font-size: 26rpx;
+				color: #bcbcbc;
+			}
+			&:nth-child(2){
+				color: #ff4c2a;
+			}
+		}
+		}
+	}
+	
+}

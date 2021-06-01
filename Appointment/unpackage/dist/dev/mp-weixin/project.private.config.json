@@ -1,0 +1,138 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "余额明细",
+          "pathName": "pages/mx/yemx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "同城活动",
+          "pathName": "pages/tc/tchd",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "浏览记录",
+          "pathName": "pages/lljl/lljl",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "注册",
+          "pathName": "pages/zhuce/zhuce",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "会员中心",
+          "pathName": "pages/hyzx/hyzx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "文章详情",
+          "pathName": "pages/wzxq/wzxq",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的报名",
+          "pathName": "pages/wdbm/wdbm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "新闻动态",
+          "pathName": "pages/xwdt/xwdt",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "同城活动详情",
+          "pathName": "pages/tcgdxq/tchdxq",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "余额充值",
+          "pathName": "pages/yecz/yecz",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "会员中心续费",
+          "pathName": "pages/hyzxxf/hyzxxf",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "对象详情",
+          "pathName": "pages/dxxq/dxxq",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "找对象",
+          "pathName": "pages/target/target",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "编辑资料",
+          "pathName": "pages/bjzl/bjzl",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "会员协议说明",
+          "pathName": "pages/sm/sm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/u-avatar-cropper/u-avatar-cropper",
+          "pathName": "pages/u-avatar-cropper/u-avatar-cropper",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的关注",
+          "pathName": "pages/wdgz/wdgz",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.mx_nr{
+	width: 85%;
+	margin: 30rpx auto 30rpx auto;
+	padding: 30rpx 30rpx 30rpx 30rpx;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	.mx_fee{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 30rpx;
+		text{
+			&:nth-child(2){
+				color: #ff8871;
+			}
+		}
+	}
+	.mx_time{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 30rpx;
+		margin-top: 10rpx;
+		color: #C8C7CC;
+	}
+}

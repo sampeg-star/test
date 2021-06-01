@@ -1,0 +1,111 @@
+.hyzxxf_top{
+	background-color: #FFFFFF;
+	padding: 30rpx 0rpx 80rpx 0rpx;
+	.vip_btn{
+		width: 500rpx;
+		padding: 25rpx 0;
+		font-size: 35rpx;
+		color: #FFFFFF;
+		border-radius: 10px;
+		margin: 80rpx auto 0rpx auto;
+		text-align: center;
+		background-image: linear-gradient(to right, #e2573a,#eb971f);
+	}
+}
+.hyzxxf_user{
+	width: 90%;
+	background: url(~@/static/images/hyzx.jpg) no-repeat;
+	background-size: 100%;
+	margin: 0rpx auto;
+	border-radius: 10px;
+	padding: 40rpx 20rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	.user_img{
+		image{
+			width: 130rpx;
+			height: 130rpx;
+			border: 4px solid #884e04;
+			border-radius: 50px;
+			margin-right: 20rpx;
+		}
+	}
+	.user_msg{
+		.user_msg_box{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			.user_vip{
+				background-color: #884e04;
+				color: #FFFFFF;
+				border-radius: 50rpx;
+				font-size: 25rpx;
+				padding: 5rpx 20rpx;
+			}
+		}
+		.user_vip_time{
+			font-size: 28rpx;
+			color: rgb(171, 93, 19);
+			margin-top: 15rpx;
+		}
+		
+		image{
+			width: 50rpx;
+			height: 50rpx;
+			
+		}
+	}
+}
+.hyzx_spatic{
+	.hyzx_spatic_title{
+		display: flex;
+		align-items: center;
+		font-size: 40rpx;
+		justify-content: center;
+		margin-top: 50rpx;
+		margin-bottom: 120rpx;
+		text{
+			margin-left: 20rpx;
+			margin-right: 20rpx;
+		}
+		image{
+			width: 100rpx;
+			height: 30rpx;
+		}
+	}
+	.hyzx_nr{
+		.hyzx_tq_msg{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.hyzx_tq_text{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			font-size: 28rpx;
+			margin-top: 50rpx;
+			margin-bottom: 20rpx;
+			letter-spacing: 1px;
+		}
+		.hyzx_tq_text1{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			font-size: 23rpx;
+			padding-left: 10rpx;
+			letter-spacing: 2px;
+			image{
+				width: 20rpx;
+				height: 20rpx;
+				margin-right: 10rpx;
+				margin-left: 10rpx;
+			}
+		}
+		image{
+			width: 100rpx;
+			height: 100rpx;
+		}
+	}
+}

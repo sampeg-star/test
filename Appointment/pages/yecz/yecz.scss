@@ -1,0 +1,71 @@
+.yecz_top{
+	width: 100%;
+	height: 400rpx;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-image: linear-gradient(to right,rgb(255, 97, 51), rgb(255, 145, 70));
+	color: #FFFFFF;
+	.yecz_doll{
+		position: relative;
+		top: 20%;
+		left: 88%;
+		transform: translate(-50%,-50%);
+		font-size: 70rpx;
+	}
+	.yecz_text{
+		position: relative;
+		top: 18%;
+		left: 91.5%;
+		transform: translate(-50%,-50%);
+	}
+	
+}
+.yecz_choose{
+		background-color: #FFFFFF;
+		width: 85%;
+		border-radius: 10px;
+		padding: 30rpx;
+		margin: -20% auto 0 auto;
+		.yecz_title{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 30rpx;
+		}
+		.yecz_box{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.yecz_ticker{
+			width: 200rpx;
+			height: 150rpx;
+			text-align: center;
+			background-color: #ffded6;
+			margin-bottom: 20rpx;
+			border-radius: 10px;
+			.yecz_nb{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				position: relative;
+				.meny{
+					color: #ff5a31;
+				}
+				.youhui{
+					color: #7f7977;
+				}
+			}
+		}
+		.yecz_btn{
+			width: 500rpx;
+			padding: 20rpx 0;
+			color: #FFFFFF;
+			border-radius: 10px;
+			margin: 20rpx auto 0rpx auto;
+			text-align: center;
+			background-image: linear-gradient(to right, #e2573a,#eb971f);
+		}
+	}
